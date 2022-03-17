@@ -1,0 +1,433 @@
+/*HTML*/
+*{
+    margin: 0%;
+    /*background-color: rgba(255,254,254,255);*/
+    font-family: 'Roboto', sans-serif;
+    color: rgb(92, 92, 93);
+    font-weight: 700;
+    font-size: 103%;
+}
+
+p{
+    line-height: 170%;
+}
+
+h1,h2,h3, h4{
+    font-family: 'Inter', sans-serif;
+    color: #43559c;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+.material-icons{
+    color: #6b86eb;
+}
+/*NAVBAR*/
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px 10%;
+    font-size: 110%;
+}
+
+#navbar h3{
+    display: inline;
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 150%;
+}
+
+#navbar ul{
+    display: inline;
+}
+
+#navbar li{
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+}
+
+#navbar li button{
+    background-color: #4f69c7;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 4.5px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+/*FIGHT VIRUS*/
+
+
+.fight-virus{
+    text-align: right;
+}
+
+.child{
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+}
+
+#text-virus{
+    text-align: left;
+    padding: 5% 0% 2% 0%;
+}
+#text-virus h1{
+    margin: 3% 20% 0% 20%;
+}
+
+#text-virus p{
+    margin: 5% 20%;
+    width: 55%;
+}
+
+#text-virus ul{
+    margin: 10% 5% 20% 8%;
+}
+
+#text-virus li{
+    list-style: none;
+    display: inline;
+    margin: 0% 7%;
+}
+
+#text-virus li i{
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.child>img{
+    width: 93%;
+    height: auto;
+}
+
+#schedule{
+    text-align: left;
+    margin: 15% 0%;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+#schedule i{
+    margin-right: 2%;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+#schedule table{
+    background-color: rgba(255, 255, 255, 0.87);
+    position: absolute;
+    left: 10%;
+    width: 65%;
+    padding: 0% 1%;
+    border-radius: 4px;
+    padding: 1%;    
+    box-shadow: -1px 0.5px 30px -5px rgb(185, 189, 189);
+}
+
+
+#schedule tr td{
+    padding-left: 2.5%;
+}
+
+#schedule button{
+    background-color: #6b86eb;
+    color: whitesmoke;
+    padding: 15px 25px;
+    border-radius: 4.5px;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
+/*MARCAS DE VACUNAS*/
+#marcas{
+    width: 80%;
+    margin: 5% 0% 7% 8%;
+}
+#marcas img{
+    display: inline;
+    width: 15%;
+    height: auto;
+    opacity: 0.2;
+    vertical-align: middle;
+    margin: 0% 4.83%;
+}
+
+/*WHY SOULD I*/
+
+#why{
+    margin-left: 11%;
+    width: 80%;    
+}
+
+#why-header-container{
+    width: 45%;
+}
+
+#why-header-container h2{
+    margin: 10% 0%;
+}
+
+#why-text{
+    margin: 10% 0%;
+    text-align: left;
+    width: 100%;
+}
+
+#why-cards-container{
+    margin-bottom: 20%;
+}
+
+.why-card{
+    margin-right: 2%;
+    display: inline-block;
+    width: 18%;
+    border: 3.6px rgba(216, 216, 216, 0.2) solid;
+    border-radius: 3.5px;
+    vertical-align: top;
+    height: 260px;
+    padding: 0% 2% 3% 2%;
+    transition: transform .2s;
+}
+
+.why-card:hover{
+    transform: scale(1.12);
+    box-shadow: -1px 0.5px 30px -5px rgb(185, 189, 189);
+}
+
+.why-card p{
+    font-size: 85%;
+}
+
+.why-icon-container{
+    background-color: rgba(216, 216, 216, 0.2);
+    border: 3.6px rgba(216, 216, 216, 0.2) solid;
+    border-radius: 8px;
+    width: 25%;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.why-icon-container i{
+    margin: 13% 0%;
+    padding: 5px 12px;
+}
+
+.why-card h4{
+    margin-bottom: 10%;
+    width: 75%;
+}
+
+/*PREPARATIONS*/
+
+#preparation .child{
+    display: inline-block;
+    text-align: left;
+    width: 47%;
+}
+
+#preparation .child >img{
+    width: 95%;
+}
+
+#preparation-text{
+    margin-left: 2%;
+}
+
+#preparation-text h2{
+    margin-bottom: 4%;
+}
+
+#preparation-text p{
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+#preparation-text li{
+    list-style-type: none;
+    margin: 10% 0%;
+    padding: 1%;
+    border: 3.6px rgba(216, 216, 216, 0.2) solid;
+    border-radius: 3.5px;
+    width: 70%;
+}
+
+#preparation-text li i{
+    background-color: rgba(216, 216, 216, 0.5);
+    list-style-type: none;
+    margin-right: 5%;
+    vertical-align: middle;
+    border-radius: 3.5px;
+}
+
+/*EMERGENCY CONTACT*/
+#emergency{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+#emergency-container{
+    margin-left: 11%;
+}
+
+#emergency-container h2{
+    margin: 5% 0%;
+}
+
+#emergency-container p{
+    margin: 5% 0%;
+    width: 40%;
+}
+
+#emergency-button-container{
+    margin-left: 11%;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.emergency-card{
+    display: inline-block;
+    width: 42%;
+    margin: 3% 1%;
+    height: 221px;
+    border: 3.6px rgba(216, 216, 216, 0.15) solid;
+    border-radius: 8px;
+    transition: transform .2s;
+}
+
+.emergency-card:hover{
+    transform: scale(1.09);
+    box-shadow: -1px 0.5px 30px -5px rgb(185, 189, 189);
+}
+
+.emergency-icon-container{
+    display:inline-block;
+    margin: 0px 10px 25px 10px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: rgba(107, 134, 235, 0.2);
+    border-radius: 4.5px;
+}
+
+.emergency-icon-container i{
+    display: inline-block;
+    background-color: rgba(107, 134, 235, 0.0);
+    border-radius: 4.5px;
+    margin: 25%;
+}
+
+.emergency-card-text{
+    display: inline-block;
+    margin: 5% 0%;
+}
+
+.emergency-card-text h4{
+    margin: 2% 0%;
+}
+
+.emergency-card-text p{
+    margin: 7% 0%;
+}
+
+#emergency-img{
+    display: inline-block;
+    width: 48.6%;
+    height: auto;
+}
+#emergency-img img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+
+.emergency-card button{
+    background-color: rgba(107, 134, 235, 0.1);
+    color: #495daf;
+    padding: 25px 20px;
+    border-radius: 4.5px;
+    border: none;
+    width: 90%;
+    margin: 10% 5%;
+}
+
+.emergency-card button:hover{
+    background-color: rgb(82, 111, 214);
+    color: white;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: rgba(107, 134, 235, 0.2);
+    height: 340px;
+}
+
+.footer-container{
+    display: inline-block;
+    margin: 4% 1.5%;
+    vertical-align: top;
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+#footer-text{
+    margin-left: 10%;
+    margin-right: 5%;
+    
+}
+
+#footer-text h4{
+    margin-bottom: 5%;
+    background-color: rgba(107, 134, 235, 0.0);
+    font-size: 150%;
+}
+
+#footer-text p{
+    width: 45%;
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+.footer-container ul{
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+b{
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+.footer-container li{
+    list-style-type: none;
+    margin: 15% 0%;
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+.footer-container li b{
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+#footer-derechos{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(107, 134, 235, 0.0);
+}
+
+
+#footer-derechos p{
+    display: inline-block;
+    margin: 0% 5%;
+    background-color: rgba(107, 134, 235, 0.0);
+}
